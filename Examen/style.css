@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size:62.5% ;
+}
+.container{
+    background-color: #25273e;
+    display: flex;
+    flex-direction: column;
+
+}
+.container__1{
+    background-image: url(paisaje.jpg);
+    background-size: cover;
+    background-position: center;
+    height:33vh;
+}
+.container__menu--1{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+    
+}
+.container__menu--2{
+    background-color: black;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.container__principal{
+    background-color: #1f2233;
+    height: 33vh;
+}
+.container__footer{
+    background-color: #25273e;
+    height: 33vh;
+}
